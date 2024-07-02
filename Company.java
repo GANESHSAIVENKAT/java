@@ -1,24 +1,33 @@
-public class Company {
+public class Company{
 
-    public static void main(String[] args) {
-        // Declare and initialize arrays of different types
-        String[] nameofcompany = {"Apple", "Google", "Microsoft"};
-        int[] works = {10080, 20057, 30960, 47080, 59797};
-        long[] companycontact = {10000000000L, 20000000000L, 30000000000L};
     
+	
+	    public static void company_detail(){
+	    System.out.println("TCS");
+	    }
+	    public static void chairman(){
+	    System.out.println("CEO of TCS is N.Chandrasekaran ");	
+	    }
+	    static int total_projects=1000;
+	    public static void project_detils(){
+	    System.out.println("Total_projects is:  "+total_projects);
+	    }
+	     static int teams=20;
+	     public static void team_details(){
+	     System.out.println("Team_details : "+teams);
+	 	
+	    }
+	      static int active_projects=250;
+	      public static void active_projects_details(){
+	      System.out.println("Active_Projects are: "+active_projects);
+	  
 		
-		 for (int i = 0; i < nameofcompany.length; i++) {
-			 
-		    System.out.println("Company Names are as follows:"+nameofcompany[i]);  
-		}
-		for (int j = 0; j < works.length; j++) {
-			 
-		    System.out.println("No of Workers are as follows:"+works[j]);  
-		}	
-		for (int k = 0; k < companycontact.length; k++) {
-			 
-		    System.out.println("Company contacts are as follows:"+companycontact[k]);  
-		}
-		
-    }
-}	
+	    }
+	      static float non_active_projects=total_projects-active_projects;
+           public static void non_active_projects(){
+          System.out.println("non_active_projects are: "+non_active_projects);
+	    }
+	
+}
+
+
