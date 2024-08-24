@@ -1,0 +1,35 @@
+package com.gogle.xworlz.test;
+
+import com.gogle.xworlz.constant.Days;
+import com.gogle.xworlz.constant.Months;
+import com.gogle.xworlz.constant.Place;
+import com.gogle.xworlz.constant.Planet;
+
+public class Earth {
+ 
+	public Planet planetname;
+	public Days names;
+	public Months monthname;
+	public Place placename;
+	
+	
+	@Override
+	public boolean equals(Object object) {
+
+		if (object == null || this == null)	
+		return false;
+		
+		if(this==object)
+			return true;
+		
+		if(!(object instanceof Earth))
+			return false;
+		
+		Earth earth=(Earth)object;
+		
+		if(this.monthname!=earth.monthname||this.names!=earth.names||this.placename!=earth.placename||this.planetname!=earth.planetname)
+			return false;
+		return true;
+
+	}
+}

@@ -1,0 +1,28 @@
+package com.xworkz.game.service;
+
+import com.xworkz.game.util.PlayStoreUtil;
+import com.xworkz.games.Dto.GamesDto;
+
+public class PlayStore {
+
+	private PlayStore playstoredto[] = new PlayStore[3];
+	private int index;
+
+	public String onSave(PlayStore dto) {
+		if (dto == null) {
+			return "notSaved";
+		} else {
+			boolean duplicaters = PlayStoreUtil.checkDuplicate(playstoredto, dto);
+			if (duplicaters == false) {
+				if (this.index < playstoredto.length) {
+					playstoredto[index] = dto;
+					index++;
+					return "Saved";
+				}
+			}
+			return "notsaved";
+		}
+	//	return "notSaved";
+
+	}
+}

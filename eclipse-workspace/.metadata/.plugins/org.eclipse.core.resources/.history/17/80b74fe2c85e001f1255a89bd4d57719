@@ -1,0 +1,8 @@
+package com.gogle.xworlz.runner;
+
+public class ChatGptRunner {
+
+	public static void main(String[] args) {
+		
+	}
+}

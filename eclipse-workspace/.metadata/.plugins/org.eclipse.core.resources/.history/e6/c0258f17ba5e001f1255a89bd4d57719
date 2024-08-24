@@ -1,0 +1,14 @@
+package com.gogle.xworlz.test;
+
+import com.gogle.xworlz.constant.Days;
+import com.gogle.xworlz.constant.Months;
+import com.gogle.xworlz.constant.Place;
+import com.gogle.xworlz.constant.Planet;
+
+public class Earth {
+ 
+	public Planet planetname;
+	public Days names;
+	public Months monthname;
+	public Place placename;
+}

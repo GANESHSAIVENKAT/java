@@ -1,0 +1,9 @@
+package com.gogle.xworlz.test;
+
+public class Rapido {
+
+	public String username;
+	public int password;
+	public int ratings;
+	public String toplace;
+}

@@ -1,0 +1,12 @@
+package com.gogle.xworlz.runner;
+
+import com.gogle.xworlz.test.Systems;
+
+public class SystemRunner {
+
+	public static void main(String[] args) {
+		Systems sys=new Systems();
+
+	}
+
+}

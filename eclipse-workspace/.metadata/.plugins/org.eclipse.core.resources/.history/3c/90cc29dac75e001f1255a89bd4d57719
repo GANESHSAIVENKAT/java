@@ -1,0 +1,19 @@
+package com.gogle.xworlz.runner;
+
+import com.gogle.xworlz.test.Environment;
+
+public class EnvironmentRunner {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Environment environment=new Environment();
+		
+		Environment env=new Environment();
+		env.air="Mixture";
+		env.ispoluted=true;
+		env.season="Summer";
+		env.tempurature=25;
+				
+	}
+
+}

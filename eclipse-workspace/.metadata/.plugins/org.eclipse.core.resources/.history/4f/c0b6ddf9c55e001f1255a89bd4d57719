@@ -1,0 +1,11 @@
+package com.gogle.xworlz.test;
+
+public class Product {
+
+	public String prdname;
+	public int price;
+	public int rating;
+	public String buyername;
+	
+	
+}

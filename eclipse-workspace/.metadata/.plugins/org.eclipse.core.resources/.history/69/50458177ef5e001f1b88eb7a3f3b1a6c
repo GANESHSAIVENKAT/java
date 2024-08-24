@@ -1,0 +1,8 @@
+package com.google;
+
+public class Animal {
+
+	public void sound() {
+		System.out.println("Animal makes Sound");
+	}
+}

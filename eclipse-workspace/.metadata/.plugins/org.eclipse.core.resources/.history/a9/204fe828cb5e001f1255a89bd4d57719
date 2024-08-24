@@ -1,0 +1,17 @@
+package com.gogle.xworlz.runner;
+
+import com.gogle.xworlz.test.Systems;
+
+public class SystemRunner {
+
+	public static void main(String[] args) {
+		Systems sys=new Systems();
+		sys.name="Mobile";
+		sys.brand="Asus";
+		sys.buyername="Ganesh";
+		sys.price=500000;
+		Systems info=new Systems();
+
+	}
+
+}

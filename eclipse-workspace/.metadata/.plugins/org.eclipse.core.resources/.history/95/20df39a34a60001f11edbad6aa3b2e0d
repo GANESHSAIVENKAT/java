@@ -1,0 +1,22 @@
+package com.xworkz.games.Dto;
+
+public class GamesDto {
+
+	private String gamename;
+	private String gamesize;
+	private byte rating;
+	private int totalplayers;
+	
+	public GamesDto() {
+		
+	}
+	public GamesDto(String gamename, String gamesize, byte rating, int totalplayers) {
+		super();
+		this.gamename = gamename;
+		this.gamesize = gamesize;
+		this.rating = rating;
+		this.totalplayers = totalplayers;
+	}
+	
+	
+}

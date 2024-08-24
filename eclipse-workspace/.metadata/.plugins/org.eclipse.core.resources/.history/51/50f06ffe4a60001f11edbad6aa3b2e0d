@@ -1,0 +1,13 @@
+package com.xworkz.game.runner;
+
+import com.xworkz.games.Dto.GamesDto;
+
+public class GamesRunner {
+
+	public static void main(String[] args) {
+		
+		GamesDto game=new Games();
+
+	}
+
+}

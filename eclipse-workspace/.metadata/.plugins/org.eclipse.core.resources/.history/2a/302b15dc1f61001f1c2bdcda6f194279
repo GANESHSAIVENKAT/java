@@ -1,0 +1,18 @@
+package com.xworkz.game.runner;
+
+import java.time.LocalDate;
+
+import com.xworkz.game.constant.ApplicationNameConstant;
+import com.xworkz.game.constant.GamestypeConstant;
+import com.xworkz.games.Dto.PlayStoreDto;
+
+public class PlayStoreRunner {
+
+	public static void main(String[] args) {
+		PlayStoreDto amazon=new PlayStoreDto(ApplicationNameConstant.AMAZON.toString(),GamestypeConstant.BGMI.toString(),"156mb",LocalDate.now());
+		PlayStoreDto instagram=new PlayStoreDto(ApplicationNameConstant.INSTAGRAM.toString(),GamestypeConstant.BGMI.toString(),"156mb",LocalDate.now());
+		PlayStoreDto whatsapp=new PlayStoreDto(ApplicationNameConstant.WHATSAPP.toString(),GamestypeConstant.BGMI.toString(),"156mb",LocalDate.now());
+
+	}
+
+}

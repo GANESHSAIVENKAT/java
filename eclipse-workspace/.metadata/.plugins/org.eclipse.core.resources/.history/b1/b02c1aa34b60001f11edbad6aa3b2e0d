@@ -1,0 +1,6 @@
+package com.xworkz.game.constant;
+
+public enum GamesConstant {
+
+	BGMI,COC,COD,FREEFIRE,CHESS,SHOGI;
+}

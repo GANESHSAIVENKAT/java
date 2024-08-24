@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;hasarelation&apos; to &apos;has-a-relation&apos;" description="Rename resource &apos;hasarelation&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/hasarelation" name="has-a-relation" stamp="1723438788046" updateReferences="true"/>
+</session>

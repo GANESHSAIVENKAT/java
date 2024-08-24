@@ -1,0 +1,18 @@
+package com.xworkz.game.util;
+
+import com.xworkz.games.Dto.PlayStoreDto;
+
+public class PlayStoreUtil {
+
+	public static boolean duplicateCheck(PlayStoreDto[] playstoredto, PlayStoreDto dto) {
+		for (PlayStoreDto playstore : playstoredto) {
+			if (playstore != null && playstore.equals(dto)) {
+				return true;
+			}
+		}
+
+		return false;
+
+	}
+
+}

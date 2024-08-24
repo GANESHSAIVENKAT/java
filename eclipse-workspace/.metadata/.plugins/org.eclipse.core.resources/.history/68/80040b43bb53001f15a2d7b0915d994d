@@ -1,0 +1,12 @@
+package com.google.voteridapplication.runner;
+import com.google.voteridapplication.application.Location;
+public class BankRunner {
+
+	public static void main(String[] args) {
+	Location location=new Location();
+
+
+
+	}
+
+}

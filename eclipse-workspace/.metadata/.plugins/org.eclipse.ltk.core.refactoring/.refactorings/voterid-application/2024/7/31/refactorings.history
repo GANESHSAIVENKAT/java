@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;voterid-application/src/com/google/voteridapplication/Application&apos; to &apos;application&apos;" description="Rename resource &apos;Application&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/com/google/voteridapplication/Application" name="application" stamp="1722408344707" updateReferences="true"/>
+</session>

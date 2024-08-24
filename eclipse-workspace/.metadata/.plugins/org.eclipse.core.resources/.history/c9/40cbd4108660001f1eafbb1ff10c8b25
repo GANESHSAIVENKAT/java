@@ -1,0 +1,17 @@
+package com.xworkz.game.runner;
+
+import com.xworkz.game.constant.GamestypeConstant;
+import com.xworkz.game.service.Game;
+import com.xworkz.games.Dto.GamesDto;
+
+public class GamesRunner {
+
+	public static void main(String[] args) {
+		
+		GamesDto game=new GamesDto("Freefire", "250MB", (byte)5, 50000,GamestypeConstant.FREEFIRE.toString());
+		//System.out.println(game);
+		Game games=new Game();
+		System.out.println(game);
+	}
+
+}

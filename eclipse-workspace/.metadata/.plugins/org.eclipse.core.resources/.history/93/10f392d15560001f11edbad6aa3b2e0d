@@ -1,0 +1,17 @@
+package com.xworkz.game.service;
+
+import com.xworkz.games.Dto.GamesDto;
+
+public class Game {
+	private GamesDto gamesdto[]=new GamesDto[3];
+	private int index;
+	public String onSave(GamesDto dto) {
+		if(this.index<gamesdto.length) {
+			gamesdto[index]=dto;
+			index++;
+		}
+		
+		return"not saved";
+	}
+
+}

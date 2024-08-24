@@ -1,0 +1,129 @@
+package com.google.xworkz.test;
+
+public class Conversions {
+
+	public static void main(String[] args) {
+		//1
+        int values = 10;
+        Integer value = Integer.valueOf(values);
+        System.out.println("int to Integer:"+value);
+
+        //2
+        byte value1 = 5;
+        Byte data = Byte.valueOf(value1);
+        System.out.println("byte to Byte:"+data);
+        
+        //3
+        short num = 100;
+        Short detail = Short.valueOf(num);
+        System.out.println("short to Short:"+detail);
+         
+        //4
+        long nums = 1000L;
+        Long number = Long.valueOf(nums);
+        System.out.println("long to Long:"+number);
+
+        //5
+        double no = 10.5;
+        Double no1 = Double.valueOf(no);
+        System.out.println("double to Double:"+no1);
+
+        //6
+        float floatno = 5.5f;
+        Float floatvalue = Float.valueOf(floatno);
+        System.out.println("float to Float:"+floatvalue);
+
+        //7
+        char charValue = 'M';
+        Character chardata = Character.valueOf(charValue);
+        System.out.println("char to Character:"+chardata);
+  
+        //8
+        boolean booleanValue = true;
+        Boolean booleandata = Boolean.valueOf(booleanValue);
+        System.out.println("boolean to Boolean:"+booleandata);
+
+        char charvalues='k';
+        Integer datas=Integer.valueOf(charvalues);
+        // 10
+        String byteString = "123";
+        byte stringToByte = Byte.parseByte(byteString);
+        System.out.println("String to byte: " + stringToByte);
+        // 11
+        String shortString = "12345";
+        short stringToShort = Short.parseShort(shortString);
+        System.out.println("String to short: " + stringToShort);
+
+
+        // 12
+        String intString = "123456";
+        int stringToInt = Integer.parseInt(intString);
+        System.out.println("String to int: " + stringToInt);
+
+        // 13
+        String longString = "12345678901234";
+        long stringToLong = Long.parseLong(longString);
+        System.out.println("String to long: " + stringToLong);
+
+        // 14
+        String floatString = "3.14";
+        float stringToFloat = Float.parseFloat(floatString);
+        System.out.println("String to float: " + stringToFloat);
+
+        // 15
+        String doubleString = "2.71828";
+        double stringToDouble = Double.parseDouble(doubleString);
+        System.out.println("String to double: " + stringToDouble);
+
+        // 16
+        String booleanString = "true";
+        boolean stringToBoolean = Boolean.parseBoolean(booleanString);
+        System.out.println("String to boolean: " + stringToBoolean);
+
+        // 17
+        byte byteValue = 50;
+        String byteToString = Byte.toString(byteValue);
+        System.out.println("byte to String: " + byteToString);
+
+       
+		//18
+        short shortValue = 50;
+        String shortToString = Short.toString(shortValue);
+        System.out.println("short to String:"+shortToString);
+
+        
+		//19
+        int intValue = 560;
+        String intToString = Integer.toString(intValue);
+        System.out.println("int to String:"+intToString);
+
+        
+		//20
+        long longValue = 876;
+        String longToString = Long.toString(longValue);
+        System.out.println("long to String:"+longToString);
+
+        
+		//21
+        float floatValue = 43;
+        String floatToString = Float.toString(floatValue);
+        System.out.println("float to String:"+floatToString);
+
+       
+		//22
+        double data1 = 567;
+		String doubleToString = Double.toString(data1);
+        System.out.println("double to String:"+doubleToString);
+
+        //23
+       
+        String charToString = Character.toString(charValue);
+        System.out.println("char to String:"+charToString);
+
+        //24
+        String booleanToString = Boolean.toString(booleanValue);
+        System.out.println("boolean to String:"+booleanToString);
+    }
+	
+}
+	

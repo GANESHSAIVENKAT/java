@@ -1,0 +1,5 @@
+package com.google.pubapplication;
+
+public enum PubName {
+
+}

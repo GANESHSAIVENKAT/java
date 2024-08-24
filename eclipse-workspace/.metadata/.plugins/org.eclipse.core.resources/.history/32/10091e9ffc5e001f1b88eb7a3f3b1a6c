@@ -1,0 +1,32 @@
+package com.google.xworkz.testrunner;
+
+import com.google.xworkz.test.Mobile;
+import com.google.xworkz.test.Phone;
+
+public class MobileRunner {
+
+    // Method Overriding
+    Mobile base = new Mobile();
+    base.display(); // Base display method
+
+    Phone derived = new Phone();
+    derived.display(); // Derived display method
+
+    // Constructor Overloading
+    Mobile base1 = new Mobile();
+    Mobile base2 = new Mobile("Hello");
+
+    Phone derived1 = new Phone();
+    Phone derived2 = new Phone("Hello");
+    Phone derived3 = new Phone("Hello", 123);
+
+    // Method Chaining
+    derived.setMessage("Hello");
+    derived.setMessage(200000);
+    // Demonstrating hashCode(), equals(), and toString()
+    System.out.println("base1 hashCode: " + base1.hashCode());
+    System.out.println("derived1 hashCode: " + derived1.hashCode());
+    System.out.println("base1 equals derived1: " + base1.equals(derived1));
+    System.out.println("base1 toString: " + base1.toString());
+    System.out.println("derived1 toString: " + derived1.toString());
+}

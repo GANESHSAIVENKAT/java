@@ -1,0 +1,5 @@
+package com.xworkz.game.constant;
+
+public enum PlayStoretypeConstant {
+
+}

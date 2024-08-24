@@ -1,0 +1,10 @@
+package com.gogle.xworlz.runner;
+
+import com.gogle.xworlz.test.Earth;
+
+public class EarthRunner {
+
+	public static void main(String[] args) {
+		Earth earth=new Earth();
+	}
+}
